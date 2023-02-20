@@ -1,7 +1,5 @@
-import styles from "./container.module.css";
+import styles from './container.module.css'
 
-export const Container = ({children}: { children: React.ReactNode }) => {
-    return <main className={styles.main}>
-        {children}
-    </main>
+export const Container = ({ children }: { children: React.ReactNode }) => {
+  return <main className={styles.main}>{children}</main>
 }

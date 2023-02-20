@@ -1,3 +1,3 @@
 export default function Prices() {
-    return <p>prices</p>
+  return <p>prices</p>
 }
